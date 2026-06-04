@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qaiyo-featured-image-bulk-replacer 1.2.0\n"
+"Report-Msgid-Bugs-To: https://qaiyo-plugins.com\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Qaiyo build-mo.py\n"
+
+msgid "Qaiyo Plugins"
+msgstr "Plugins Qaiyo"
+
+msgid "Featured Image Bulk Replacer"
+msgstr "Reemplazo masivo de imagen destacada"
+
+msgid "Featured Images"
+msgstr "Imágenes destacadas"
+
+msgid "You do not have permission to access this page."
+msgstr "No tienes permiso para acceder a esta página."
+
+msgid "Replace the featured image of published posts with an image that already exists in your Media Library. Filter by date, scope and category, preview the result, then run it in safe batches — and restore the originals at any time."
+msgstr "Reemplaza la imagen destacada de las entradas publicadas por una imagen que ya existe en tu biblioteca de medios. Filtra por fecha, alcance y categoría, previsualiza el resultado y ejecútalo en lotes seguros — y restaura los originales cuando quieras."
+
+msgid "Replacement settings"
+msgstr "Ajustes del reemplazo"
+
+msgid "New featured image"
+msgstr "Nueva imagen destacada"
+
+msgid "Choose from Media Library"
+msgstr "Elegir de la biblioteca de medios"
+
+msgid "Pick an image from the Media Library, or paste the URL of an image that is already uploaded. Nothing is downloaded."
+msgstr "Elige una imagen de la biblioteca de medios o pega la URL de una imagen ya subida. No se descarga nada."
+
+msgid "Target scope"
+msgstr "Alcance"
+
+msgid "All matching posts"
+msgstr "Todas las entradas coincidentes"
+
+msgid "Only posts without a featured image"
+msgstr "Solo entradas sin imagen destacada"
+
+msgid "Post type"
+msgstr "Tipo de contenido"
+
+msgid "Category"
+msgstr "Categoría"
+
+msgid "All categories"
+msgstr "Todas las categorías"
+
+msgid "Category filter applies to standard posts."
+msgstr "El filtro de categoría se aplica a las entradas estándar."
+
+msgid "After date (optional)"
+msgstr "Desde la fecha (opcional)"
+
+msgid "Only posts published on or after this date are affected. Leave empty for no lower bound."
+msgstr "Solo se ven afectadas las entradas publicadas en esta fecha o después. Déjalo vacío para no poner límite inferior."
+
+msgid "Before date"
+msgstr "Antes de la fecha"
+
+msgid "Only posts published strictly before this date are affected (the date itself is excluded)."
+msgstr "Solo se ven afectadas las entradas publicadas estrictamente antes de esta fecha (la fecha en sí queda excluida)."
+
+msgid "Alt / title text (optional)"
+msgstr "Texto alt / título (opcional)"
+
+msgid "If filled, the alt and title of the chosen Media Library image are set to this text once. Leave empty to keep them unchanged."
+msgstr "Si se rellena, el texto alternativo y el título de la imagen elegida se establecen una vez con este texto. Déjalo vacío para no modificarlos."
+
+msgid "Preview"
+msgstr "Vista previa"
+
+msgid "Test run (max %d posts)"
+msgstr "Prueba (máx. %d entradas)"
+
+msgid "Live run (all matching posts)"
+msgstr "Ejecución real (todas las entradas coincidentes)"
+
+msgid "Tip: back up your database before a live run. Posts are processed in small batches so large sites do not time out. The original featured image of every changed post is stored so you can restore it below."
+msgstr "Consejo: haz una copia de seguridad de la base de datos antes de una ejecución real. Las entradas se procesan en lotes pequeños para que los sitios grandes no agoten el tiempo de espera. La imagen destacada original de cada entrada modificada se guarda para poder restaurarla abajo."
+
+msgid "Restore originals"
+msgstr "Restaurar originales"
+
+msgid "Restores the original featured image of every post the plugin previously changed."
+msgstr "Restaura la imagen destacada original de cada entrada que el plugin haya modificado anteriormente."
+
+msgid "Restorable posts:"
+msgstr "Entradas restaurables:"
+
+msgid "Restore original featured images"
+msgstr "Restaurar imágenes destacadas originales"
+
+msgid "Nothing to restore right now."
+msgstr "Ahora mismo no hay nada que restaurar."
+
+msgid "Last run"
+msgstr "Última ejecución"
+
+msgid "No runs yet."
+msgstr "Aún no hay ejecuciones."
+
+msgid "Restore on %1$s — restored: %2$d, skipped: %3$d, errors: %4$d."
+msgstr "Restauración (%1$s) — restauradas: %2$d, omitidas: %3$d, errores: %4$d."
+
+msgid "test"
+msgstr "prueba"
+
+msgid "live"
+msgstr "real"
+
+msgid "Replacement (%1$s) on %2$s — matched: %3$d, replaced: %4$d, skipped: %5$d, errors: %6$d."
+msgstr "Reemplazo (%1$s) — %2$s — coincidencias: %3$d, reemplazadas: %4$d, omitidas: %5$d, errores: %6$d."
+
+msgid "Qaiyo Featured Image Bulk Replacer v%s — by"
+msgstr "Qaiyo Featured Image Bulk Replacer v%s — por"
+
+msgid "You do not have permission to perform this action."
+msgstr "No tienes permiso para realizar esta acción."
+
+msgid "Please enter a valid “before” date."
+msgstr "Introduce una fecha «antes de» válida."
+
+msgid "Please choose an image from the Media Library or paste an image URL."
+msgstr "Elige una imagen de la biblioteca de medios o pega una URL de imagen."
+
+msgid "No Media Library image was found for that URL. Make sure the image is already uploaded."
+msgstr "No se encontró ninguna imagen de la biblioteca de medios para esa URL. Asegúrate de que la imagen ya esté subida."
+
+msgid "The job expired. Please start again."
+msgstr "La tarea ha caducado. Empieza de nuevo."
+
+msgid "skip (already correct)"
+msgstr "omitir (ya correcta)"
+
+msgid "replace"
+msgstr "reemplazar"
+
+msgid "Media Library attachment ID: %1$d. Matched posts: %2$d — to replace: %3$d, to skip: %4$d."
+msgstr "ID de adjunto de la biblioteca: %1$d. Coincidencias: %2$d entradas — a reemplazar: %3$d, a omitir: %4$d."
+
+msgid "No posts match these criteria."
+msgstr "Ninguna entrada coincide con estos criterios."
+
+msgid "Showing the first %1$d of %2$d matching posts."
+msgstr "Mostrando las primeras %1$d de %2$d entradas coincidentes."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Action"
+msgstr "Acción"
+
+msgid "Select the new featured image"
+msgstr "Selecciona la nueva imagen destacada"
+
+msgid "Use this image"
+msgstr "Usar esta imagen"
+
+msgid "Loading preview…"
+msgstr "Cargando vista previa…"
+
+msgid "Could not load the preview."
+msgstr "No se pudo cargar la vista previa."
+
+msgid "Please choose an image and a date first."
+msgstr "Primero elige una imagen y una fecha."
+
+msgid "Preparing…"
+msgstr "Preparando…"
+
+msgid "Processing…"
+msgstr "Procesando…"
+
+msgid "Nothing to process."
+msgstr "Nada que procesar."
+
+msgid "Something went wrong. Please try again."
+msgstr "Algo salió mal. Inténtalo de nuevo."
+
+msgid "Run the TEST replacement on the first few matching posts?"
+msgstr "¿Ejecutar el reemplazo de PRUEBA en las primeras entradas coincidentes?"
+
+msgid "Run the LIVE bulk featured-image replacement on ALL matching posts?"
+msgstr "¿Ejecutar el reemplazo masivo REAL de imágenes destacadas en TODAS las entradas coincidentes?"
+
+msgid "Restore the original featured image of every affected post?"
+msgstr "¿Restaurar la imagen destacada original de cada entrada afectada?"
+
+msgid "Pro features"
+msgstr "Funciones Pro"
+
+msgid "Background processing & scheduling"
+msgstr "Procesamiento en segundo plano y programación"
+
+msgid "Offload large runs to a server-friendly background queue with adaptive batch size, throttling and an off-peak window — or schedule a run for later. No need to keep the browser open."
+msgstr "Delega las ejecuciones grandes a una cola en segundo plano respetuosa con el servidor, con tamaño de lote adaptativo, limitación y ventana de horas valle — o programa una ejecución para más tarde. No hace falta mantener el navegador abierto."
+
+msgid "Automatic featured image"
+msgstr "Imagen destacada automática"
+
+msgid "Automatically set a fallback featured image when a post is published without one — by post type and category, optionally using the first image found in the content."
+msgstr "Establece automáticamente una imagen destacada de reserva cuando se publica una entrada sin ella — por tipo de contenido y categoría, opcionalmente usando la primera imagen del contenido."
+
+msgid "Run history & per-run restore"
+msgstr "Historial de ejecuciones y restauración por ejecución"
+
+msgid "Keep a history of every run and roll back any single run independently, plus an email report when a background job finishes."
+msgstr "Guarda un historial de cada ejecución y permite revertir cualquiera de forma independiente, además de un informe por correo cuando termina una tarea en segundo plano."
+
+msgid "Unlock in Pro →"
+msgstr "Desbloquear en Pro →"
+
+msgid "Qaiyo Featured Image Bulk Replacer Pro"
+msgstr "Qaiyo Featured Image Bulk Replacer Pro"
+
+msgid "Get Pro"
+msgstr "Obtener Pro"
