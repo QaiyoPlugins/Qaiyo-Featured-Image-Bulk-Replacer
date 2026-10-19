@@ -1,0 +1,127 @@
+/**
+ * Featured image column on post lists.
+ *
+ * Fixed pixel width, never a percentage: list tables use table-layout: fixed
+ * and the core Posts columns already take about half the width, so a
+ * percentage column would squeeze the Title column on 1024–1440 px screens.
+ */
+.wp-list-table .column-qfibr_thumb {
+	width: 44px;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align: center;
+}
+
+.wp-list-table th.column-qfibr_thumb .dashicons {
+	color: #50575e;
+}
+
+.qfibr-col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2px;
+}
+
+.qfibr-col-thumb,
+.qfibr-col-set {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: #f0f0f1;
+	flex-shrink: 0;
+}
+
+.qfibr-col-thumb img,
+.qfibr-col-set img {
+	width: 32px;
+	height: 32px;
+	object-fit: cover;
+	display: block;
+}
+
+.qfibr-col-none {
+	color: #50575e;
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+}
+
+/* WCAG 2.5.8: every target is at least 24 x 24 CSS pixels. */
+.qfibr-col-btn {
+	min-width: 24px;
+	min-height: 24px;
+	padding: 0;
+	border: 1px solid #8c8f94;
+	border-radius: 6px;
+	background: #f6f7f7;
+	color: #2271b1;
+	cursor: pointer;
+}
+
+.qfibr-col-set {
+	border-style: dashed;
+}
+
+.qfibr-col-set:has( img ) {
+	border-style: solid;
+	border-color: transparent;
+}
+
+.qfibr-col-btn:hover {
+	border-color: #2271b1;
+}
+
+.qfibr-col-btn:focus-visible {
+	outline: 2px solid #2271b1;
+	outline-offset: 1px;
+}
+
+.qfibr-col-remove {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 24px;
+	color: #b32d2e;
+	background: transparent;
+	border-color: transparent;
+}
+
+.qfibr-col-remove:hover {
+	border-color: #b32d2e;
+}
+
+.qfibr-col-btn .dashicons {
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+}
+
+@media ( forced-colors: active ) {
+	.qfibr-col-btn {
+		border-color: ButtonText;
+	}
+	.qfibr-col-btn:focus-visible {
+		outline-color: Highlight;
+	}
+}
+
+/* Media Library "Featured image of" column. */
+.fixed .column-qfibr_used_by {
+	width: 160px;
+}
+
+.qfibr-usage {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.qfibr-usage li {
+	margin: 0 0 2px;
+}

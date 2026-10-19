@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qaiyo-featured-image-bulk-replacer 1.3.0\n"
+"Report-Msgid-Bugs-To: https://qaiyo-plugins.com\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Qaiyo build-mo.py\n"
+
+msgid "Qaiyo Plugins"
+msgstr "Qaiyo プラグイン"
+
+msgid "Hi, %s!"
+msgstr "こんにちは、%sさん！"
+
+msgid "Featured Image Bulk Replacer"
+msgstr "アイキャッチ画像の一括置換"
+
+msgid "Featured Images"
+msgstr "アイキャッチ画像"
+
+msgid "You do not have permission to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+msgid "Replacement settings"
+msgstr "置換の設定"
+
+msgid "New featured image"
+msgstr "新しいアイキャッチ画像"
+
+msgid "Choose from Media Library"
+msgstr "メディアライブラリから選択"
+
+msgid "Pick an image from the Media Library, or paste the URL of an image that is already uploaded. Nothing is downloaded."
+msgstr "メディアライブラリから画像を選ぶか、すでにアップロード済みの画像の URL を貼り付けてください。ダウンロードは行われません。"
+
+msgid "Target scope"
+msgstr "対象範囲"
+
+msgid "All matching posts"
+msgstr "条件に一致するすべての投稿"
+
+msgid "Only posts without a featured image"
+msgstr "アイキャッチ画像のない投稿のみ"
+
+msgid "Post type"
+msgstr "投稿タイプ"
+
+msgid "Category"
+msgstr "カテゴリー"
+
+msgid "All categories"
+msgstr "すべてのカテゴリー"
+
+msgid "After date (optional)"
+msgstr "この日付以降（任意）"
+
+msgid "Only posts published on or after this date are affected. Leave empty for no lower bound."
+msgstr "この日付以降に公開された投稿のみが対象です。下限を設けない場合は空のままにしてください。"
+
+msgid "Before date"
+msgstr "この日付より前"
+
+msgid "Only posts published strictly before this date are affected (the date itself is excluded)."
+msgstr "この日付より厳密に前に公開された投稿のみが対象です（その日自体は含まれません）。"
+
+msgid "Alt / title text (optional)"
+msgstr "代替テキスト / タイトル（任意）"
+
+msgid "If filled, the alt and title of the chosen Media Library image are set to this text once. Leave empty to keep them unchanged."
+msgstr "入力すると、選択したメディアライブラリ画像の代替テキストとタイトルが一度だけこのテキストに設定されます。変更しない場合は空のままにしてください。"
+
+msgid "Preview"
+msgstr "プレビュー"
+
+msgid "Test run (max %d posts)"
+msgstr "テスト実行（最大 %d 件）"
+
+msgid "Live run (all matching posts)"
+msgstr "本番実行（一致するすべての投稿）"
+
+msgid "Tip: back up your database before a live run. Posts are processed in small batches so large sites do not time out. The original featured image of every changed post is stored so you can restore it below."
+msgstr "ヒント: 本番実行の前にデータベースをバックアップしてください。投稿は小さなバッチで処理されるため、大規模サイトでもタイムアウトしません。変更された各投稿の元のアイキャッチ画像は保存され、下から復元できます。"
+
+msgid "Restore originals"
+msgstr "元の画像を復元"
+
+msgid "Restorable posts:"
+msgstr "復元可能な投稿:"
+
+msgid "Restore original featured images"
+msgstr "元のアイキャッチ画像を復元"
+
+msgid "Nothing to restore right now."
+msgstr "現在、復元できるものはありません。"
+
+msgid "Last run"
+msgstr "前回の実行"
+
+msgid "No runs yet."
+msgstr "まだ実行されていません。"
+
+msgid "Restore on %1$s — restored: %2$d, skipped: %3$d, errors: %4$d."
+msgstr "復元 (%1$s) — 復元: %2$d、スキップ: %3$d、エラー: %4$d。"
+
+msgid "test"
+msgstr "テスト"
+
+msgid "live"
+msgstr "本番"
+
+msgid "Replacement (%1$s) on %2$s — matched: %3$d, replaced: %4$d, skipped: %5$d, errors: %6$d."
+msgstr "置換 (%1$s) — %2$s — 一致: %3$d、置換: %4$d、スキップ: %5$d、エラー: %6$d。"
+
+msgid "Qaiyo Featured Image Bulk Replacer v%s — by"
+msgstr "Qaiyo Featured Image Bulk Replacer v%s — 提供:"
+
+msgid "You do not have permission to perform this action."
+msgstr "この操作を実行する権限がありません。"
+
+msgid "Please enter a valid “before” date."
+msgstr "有効な「この日付より前」の日付を入力してください。"
+
+msgid "Please choose an image from the Media Library or paste an image URL."
+msgstr "メディアライブラリから画像を選ぶか、画像の URL を貼り付けてください。"
+
+msgid "No Media Library image was found for that URL. Make sure the image is already uploaded."
+msgstr "その URL に該当するメディアライブラリ画像が見つかりませんでした。画像がすでにアップロードされているか確認してください。"
+
+msgid "The job expired. Please start again."
+msgstr "ジョブの有効期限が切れました。最初からやり直してください。"
+
+msgid "skip (already correct)"
+msgstr "スキップ（すでに正しい）"
+
+msgid "replace"
+msgstr "置換"
+
+msgid "Media Library attachment ID: %1$d. Matched posts: %2$d — to replace: %3$d, to skip: %4$d."
+msgstr "メディアライブラリの添付 ID: %1$d。一致した投稿: %2$d — 置換: %3$d、スキップ: %4$d。"
+
+msgid "No posts match these criteria."
+msgstr "条件に一致する投稿はありません。"
+
+msgid "Showing the first %1$d of %2$d matching posts."
+msgstr "一致した %2$d 件のうち最初の %1$d 件を表示しています。"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "画像"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Date"
+msgstr "日付"
+
+msgid "Action"
+msgstr "操作"
+
+msgid "Select the new featured image"
+msgstr "新しいアイキャッチ画像を選択"
+
+msgid "Use this image"
+msgstr "この画像を使用"
+
+msgid "Loading preview…"
+msgstr "プレビューを読み込み中…"
+
+msgid "Could not load the preview."
+msgstr "プレビューを読み込めませんでした。"
+
+msgid "Preparing…"
+msgstr "準備中…"
+
+msgid "Processing…"
+msgstr "処理中…"
+
+msgid "Nothing to process."
+msgstr "処理する対象がありません。"
+
+msgid "Something went wrong. Please try again."
+msgstr "問題が発生しました。もう一度お試しください。"
+
+msgid "Run the TEST replacement on the first few matching posts?"
+msgstr "一致する最初の数件の投稿でテスト置換を実行しますか？"
+
+msgid "Run the LIVE bulk featured-image replacement on ALL matching posts?"
+msgstr "一致するすべての投稿でアイキャッチ画像の本番一括置換を実行しますか？"
+
+msgid "Restore the original featured image of every affected post?"
+msgstr "対象となるすべての投稿の元のアイキャッチ画像を復元しますか？"
+
+msgid "Pro features"
+msgstr "Pro 機能"
+
+msgid "Background processing & scheduling"
+msgstr "バックグラウンド処理とスケジュール"
+
+msgid "Offload large runs to a server-friendly background queue with adaptive batch size, throttling and an off-peak window — or schedule a run for later. No need to keep the browser open."
+msgstr "大規模な実行を、適応的なバッチサイズ・スロットリング・オフピーク時間帯を備えたサーバーにやさしいバックグラウンドキューに委ねるか、後で実行するようスケジュールできます。ブラウザを開いたままにする必要はありません。"
+
+msgid "Run history & per-run restore"
+msgstr "実行履歴と実行ごとの復元"
+
+msgid "Keep a history of every run and roll back any single run independently, plus an email report when a background job finishes."
+msgstr "すべての実行の履歴を保持し、任意の実行を個別に元に戻せます。さらに、バックグラウンドジョブの完了時にメールレポートを送信します。"
+
+msgid "Unlock in Pro →"
+msgstr "Pro で解除 →"
+
+msgid "Qaiyo Featured Image Bulk Replacer Pro"
+msgstr "Qaiyo Featured Image Bulk Replacer Pro"
+
+msgid "Get Pro"
+msgstr "Pro を入手"
+
+msgid "Select the images to assign at random"
+msgstr "ランダムに割り当てる画像を選択"
+
+msgid "Use these images"
+msgstr "これらの画像を使用"
+
+msgid "Choose images"
+msgstr "画像を選択"
+
+msgid "Images selected: %d"
+msgstr "選択した画像: %d"
+
+msgid "Remove this image from the selection"
+msgstr "この画像を選択から外す"
+
+msgid "Preview loaded."
+msgstr "プレビューを読み込みました。"
+
+msgid "Choose an image from the Media Library or paste an image URL."
+msgstr "メディアライブラリから画像を選ぶか、画像の URL を貼り付けてください。"
+
+msgid "Choose at least two images for random assignment."
+msgstr "ランダム割り当てには画像を2枚以上選択してください。"
+
+msgid "Enter the “before” date."
+msgstr "「この日付より前」の日付を入力してください。"
+
+msgid "Finished: %1$d processed, %2$d skipped, %3$d errors."
+msgstr "完了: 処理 %1$d 件、スキップ %2$d 件、エラー %3$d 件。"
+
+msgid "Scanning…"
+msgstr "スキャン中…"
+
+msgid "Remove the broken featured image references? You can undo it with “Restore originals”."
+msgstr "壊れたアイキャッチ画像の参照を削除しますか？「元に戻す」で取り消せます。"
+
+msgid "Broken image cleanup on %1$s — cleaned: %2$d, skipped: %3$d, errors: %4$d."
+msgstr "%1$s の壊れた画像のクリーンアップ — 修正: %2$d、スキップ: %3$d、エラー: %4$d。"
+
+msgid "A category, tag or taxonomy filter is set that does not apply to the chosen post type. Clear it or pick another post type — otherwise the run would affect more posts than intended."
+msgstr "選択した投稿タイプに適用されないカテゴリー・タグ・タクソノミーのフィルターが設定されています。解除するか別の投稿タイプを選んでください。そのままでは意図より多くの投稿が対象になります。"
+
+msgid "Featured image"
+msgstr "アイキャッチ画像"
+
+msgid "Has a featured image."
+msgstr "アイキャッチ画像あり。"
+
+msgid "No featured image."
+msgstr "アイキャッチ画像なし。"
+
+msgid "Choose featured image for “%s”"
+msgstr "「%s」のアイキャッチ画像を選択"
+
+msgid "Remove featured image from “%s”"
+msgstr "「%s」のアイキャッチ画像を削除"
+
+msgid "Choose featured image"
+msgstr "アイキャッチ画像を選択"
+
+msgid "Featured image changed."
+msgstr "アイキャッチ画像を変更しました。"
+
+msgid "Featured image removed."
+msgstr "アイキャッチ画像を削除しました。"
+
+msgid "Remove the featured image from this post? You can undo it with “Restore originals”."
+msgstr "この投稿のアイキャッチ画像を削除しますか？「元に戻す」で取り消せます。"
+
+msgid "More plugins from Qaiyo"
+msgstr "Qaiyo のその他のプラグイン"
+
+msgid "Discover Qaiyo"
+msgstr "Qaiyo を見る"
+
+msgid "TikTok channel feeds and scheduled background refresh of your channel galleries."
+msgstr "TikTok チャンネルフィードと、チャンネルギャラリーのバックグラウンド定期更新。"
+
+msgid "Extra layouts, star ratings, a front-end submission form and video testimonials."
+msgstr "追加レイアウト、星評価、フロントエンド投稿フォーム、動画の推薦文。"
+
+msgid "Per-term taxonomy access, advanced per-user rules and finer-grained access control."
+msgstr "ターム単位のタクソノミーアクセス、ユーザー別の高度なルール、きめ細かなアクセス制御。"
+
+msgid "Background processing, scheduling, automatic image sourcing and full change history."
+msgstr "バックグラウンド処理、スケジュール、自動画像取得、完全な変更履歴。"
+
+msgid "Unlimited services and staff, extra booking layouts and advanced scheduling rules."
+msgstr "サービスとスタッフ無制限、追加の予約レイアウト、高度なスケジュールルール。"
+
+msgid "Advanced wp-admin tools and workflow enhancements that build on the free modules."
+msgstr "無料モジュールを拡張する高度な wp-admin ツールとワークフロー改善。"
+
+msgid "Deeper performance diagnostics, more optimisation rules and one-click fixes."
+msgstr "より詳細なパフォーマンス診断、追加の最適化ルール、ワンクリック修正。"
+
+msgid "Random assignment from %1$d images. Matched posts: %2$d."
+msgstr "%1$d 枚の画像からランダムに割り当て。対象の投稿: %2$d 件。"
+
+msgid "Posts affected by this run"
+msgstr "この実行の対象となる投稿"
+
+msgid "replace (random image)"
+msgstr "置換（ランダム画像）"
+
+msgid "No featured image"
+msgstr "アイキャッチ画像なし"
+
+msgid "Rule-based automatic featured images"
+msgstr "ルールに基づく自動アイキャッチ画像"
+
+msgid "Set images automatically on publish by post type, category, tag, author or a word in the title — from a fixed image, a random set, the first image of the content, a gallery or an embedded video. Apply the rules to existing posts too."
+msgstr "公開時に投稿タイプ・カテゴリー・タグ・投稿者・タイトル内の語句に応じて画像を自動設定。固定画像、ランダムな画像セット、本文の最初の画像、ギャラリー、埋め込み動画から選べます。既存の投稿にも適用できます。"
+
+msgid "Title images"
+msgstr "タイトル画像"
+
+msgid "Generate a branded featured image from the post title, with your colours, font size and layout, previewed live."
+msgstr "投稿タイトルから、ブランドカラー・フォントサイズ・レイアウトを反映したアイキャッチ画像をライブプレビュー付きで生成。"
+
+msgid "Stock photo search"
+msgstr "ストックフォト検索"
+
+msgid "Search Unsplash and Pixabay from the dashboard and import a photo into the Media Library with its attribution."
+msgstr "ダッシュボードから Unsplash と Pixabay を検索し、クレジット付きで写真をメディアライブラリに取り込みます。"
+
+msgid "Presets, WooCommerce & WP-CLI"
+msgstr "プリセット、WooCommerce、WP-CLI"
+
+msgid "Save and share run settings, filter products by stock status and type, and run everything from the command line."
+msgstr "実行設定の保存と共有、在庫状況と商品タイプでの絞り込み、すべてをコマンドラインから実行。"
+
+msgid "Not used as a featured image"
+msgstr "アイキャッチ画像として未使用"
+
+msgid "and %d more"
+msgstr "ほか %d 件"
+
+msgid "Featured image of"
+msgstr "アイキャッチ画像の使用先"
+
+msgid "No broken featured images found."
+msgstr "壊れたアイキャッチ画像は見つかりませんでした。"
+
+msgid "Posts with a broken featured image: %d."
+msgstr "壊れたアイキャッチ画像のある投稿: %d 件。"
+
+msgid "Replace the featured image of published posts with an image that already exists in your Media Library. Filter by date, scope, category, tag, author or taxonomy, preview the result, then run it in safe batches — and restore the originals at any time."
+msgstr "公開済み投稿のアイキャッチ画像を、メディアライブラリにある画像に置き換えます。日付・範囲・カテゴリー・タグ・投稿者・タクソノミーで絞り込み、プレビューを確認してから安全なバッチで実行。元の画像はいつでも復元できます。"
+
+msgid "How images are assigned"
+msgstr "画像の割り当て方法"
+
+msgid "The same image for every post"
+msgstr "すべての投稿に同じ画像"
+
+msgid "A random image from a selection"
+msgstr "選択した中からランダムな画像"
+
+msgid "Pick at least two images. Each post gets one of them; a retried batch gives a post the same image again."
+msgstr "画像を2枚以上選んでください。各投稿にはそのうち1枚が割り当てられ、バッチを再試行しても同じ画像になります。"
+
+msgid "Selected images"
+msgstr "選択した画像"
+
+msgid "Or paste the URL of an uploaded image"
+msgstr "またはアップロード済み画像の URL を貼り付け"
+
+msgid "Tag"
+msgstr "タグ"
+
+msgid "All tags"
+msgstr "すべてのタグ"
+
+msgid "Other taxonomy"
+msgstr "その他のタクソノミー"
+
+msgid "No filter"
+msgstr "絞り込みなし"
+
+msgid "Author"
+msgstr "投稿者"
+
+msgid "All authors"
+msgstr "すべての投稿者"
+
+msgid "Category, tag and taxonomy filters must apply to the chosen post type, otherwise the run is refused rather than widened."
+msgstr "カテゴリー・タグ・タクソノミーのフィルターは選択した投稿タイプに適用できる必要があります。そうでない場合、対象を広げずに実行を拒否します。"
+
+msgid "(required)"
+msgstr "（必須）"
+
+msgid "Restores the original featured image of every post the plugin previously changed — bulk runs, list-column changes and broken-image cleanups alike."
+msgstr "プラグインが変更したすべての投稿の元のアイキャッチ画像を復元します。一括実行、一覧の列での変更、壊れた画像のクリーンアップのいずれも対象です。"
+
+msgid "Broken featured images"
+msgstr "壊れたアイキャッチ画像"
+
+msgid "Finds posts whose featured image points at an attachment that no longer exists, and removes that dangling reference. Images whose file is stored elsewhere (offloaded media) are never touched."
+msgstr "存在しない添付ファイルを参照しているアイキャッチ画像を持つ投稿を見つけ、その参照を削除します。ファイルが別の場所に保存されている画像（オフロードされたメディア）には一切触れません。"
+
+msgid "Scan for broken featured images"
+msgstr "壊れたアイキャッチ画像をスキャン"
+
+msgid "Remove broken references"
+msgstr "壊れた参照を削除"
+
+msgid "(opens in a new tab)"
+msgstr "（新しいタブで開きます）"

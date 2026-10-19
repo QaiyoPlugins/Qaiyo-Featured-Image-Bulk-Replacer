@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qaiyo-featured-image-bulk-replacer 1.3.0\n"
+"Report-Msgid-Bugs-To: https://qaiyo-plugins.com\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Qaiyo build-mo.py\n"
+
+msgid "Qaiyo Plugins"
+msgstr "Qaiyo Eklentileri"
+
+msgid "Hi, %s!"
+msgstr "Merhaba, %s!"
+
+msgid "Featured Image Bulk Replacer"
+msgstr "Toplu öne çıkarılan görsel değiştirme"
+
+msgid "Featured Images"
+msgstr "Öne çıkarılan görseller"
+
+msgid "You do not have permission to access this page."
+msgstr "Bu sayfaya erişim izniniz yok."
+
+msgid "Replacement settings"
+msgstr "Değiştirme ayarları"
+
+msgid "New featured image"
+msgstr "Yeni öne çıkarılan görsel"
+
+msgid "Choose from Media Library"
+msgstr "Ortam Kitaplığından seç"
+
+msgid "Pick an image from the Media Library, or paste the URL of an image that is already uploaded. Nothing is downloaded."
+msgstr "Ortam Kitaplığından bir görsel seçin veya zaten yüklenmiş bir görselin URL'sini yapıştırın. Hiçbir şey indirilmez."
+
+msgid "Target scope"
+msgstr "Hedef kapsam"
+
+msgid "All matching posts"
+msgstr "Eşleşen tüm yazılar"
+
+msgid "Only posts without a featured image"
+msgstr "Yalnızca öne çıkarılan görseli olmayan yazılar"
+
+msgid "Post type"
+msgstr "Yazı türü"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "All categories"
+msgstr "Tüm kategoriler"
+
+msgid "After date (optional)"
+msgstr "Şu tarihten sonra (isteğe bağlı)"
+
+msgid "Only posts published on or after this date are affected. Leave empty for no lower bound."
+msgstr "Yalnızca bu tarihte veya sonrasında yayımlanan yazılar etkilenir. Alt sınır olmaması için boş bırakın."
+
+msgid "Before date"
+msgstr "Şu tarihten önce"
+
+msgid "Only posts published strictly before this date are affected (the date itself is excluded)."
+msgstr "Yalnızca bu tarihten kesinlikle önce yayımlanan yazılar etkilenir (tarihin kendisi hariçtir)."
+
+msgid "Alt / title text (optional)"
+msgstr "Alternatif metin / başlık (isteğe bağlı)"
+
+msgid "If filled, the alt and title of the chosen Media Library image are set to this text once. Leave empty to keep them unchanged."
+msgstr "Doldurulursa, seçilen Ortam Kitaplığı görselinin alternatif metni ve başlığı bir kez bu metne ayarlanır. Değiştirmemek için boş bırakın."
+
+msgid "Preview"
+msgstr "Önizleme"
+
+msgid "Test run (max %d posts)"
+msgstr "Test çalıştırması (en fazla %d yazı)"
+
+msgid "Live run (all matching posts)"
+msgstr "Gerçek çalıştırma (eşleşen tüm yazılar)"
+
+msgid "Tip: back up your database before a live run. Posts are processed in small batches so large sites do not time out. The original featured image of every changed post is stored so you can restore it below."
+msgstr "İpucu: gerçek çalıştırmadan önce veritabanınızı yedekleyin. Yazılar küçük gruplar hâlinde işlenir, böylece büyük siteler zaman aşımına uğramaz. Değiştirilen her yazının orijinal öne çıkarılan görseli saklanır, böylece aşağıdan geri yükleyebilirsiniz."
+
+msgid "Restore originals"
+msgstr "Orijinalleri geri yükle"
+
+msgid "Restorable posts:"
+msgstr "Geri yüklenebilir yazılar:"
+
+msgid "Restore original featured images"
+msgstr "Orijinal öne çıkarılan görselleri geri yükle"
+
+msgid "Nothing to restore right now."
+msgstr "Şu anda geri yüklenecek bir şey yok."
+
+msgid "Last run"
+msgstr "Son çalıştırma"
+
+msgid "No runs yet."
+msgstr "Henüz çalıştırma yok."
+
+msgid "Restore on %1$s — restored: %2$d, skipped: %3$d, errors: %4$d."
+msgstr "Geri yükleme (%1$s) — geri yüklenen: %2$d, atlanan: %3$d, hata: %4$d."
+
+msgid "test"
+msgstr "test"
+
+msgid "live"
+msgstr "gerçek"
+
+msgid "Replacement (%1$s) on %2$s — matched: %3$d, replaced: %4$d, skipped: %5$d, errors: %6$d."
+msgstr "Değiştirme (%1$s) — %2$s — eşleşen: %3$d, değiştirilen: %4$d, atlanan: %5$d, hata: %6$d."
+
+msgid "Qaiyo Featured Image Bulk Replacer v%s — by"
+msgstr "Qaiyo Featured Image Bulk Replacer v%s — geliştiren:"
+
+msgid "You do not have permission to perform this action."
+msgstr "Bu işlemi gerçekleştirme izniniz yok."
+
+msgid "Please enter a valid “before” date."
+msgstr "Geçerli bir «önce» tarihi girin."
+
+msgid "Please choose an image from the Media Library or paste an image URL."
+msgstr "Ortam Kitaplığından bir görsel seçin veya bir görsel URL'si yapıştırın."
+
+msgid "No Media Library image was found for that URL. Make sure the image is already uploaded."
+msgstr "Bu URL için Ortam Kitaplığında görsel bulunamadı. Görselin zaten yüklenmiş olduğundan emin olun."
+
+msgid "The job expired. Please start again."
+msgstr "Görev süresi doldu. Lütfen yeniden başlayın."
+
+msgid "skip (already correct)"
+msgstr "atla (zaten doğru)"
+
+msgid "replace"
+msgstr "değiştir"
+
+msgid "Media Library attachment ID: %1$d. Matched posts: %2$d — to replace: %3$d, to skip: %4$d."
+msgstr "Kitaplık eki kimliği: %1$d. Eşleşen: %2$d yazı — değiştirilecek: %3$d, atlanacak: %4$d."
+
+msgid "No posts match these criteria."
+msgstr "Bu ölçütlerle eşleşen yazı yok."
+
+msgid "Showing the first %1$d of %2$d matching posts."
+msgstr "%2$d eşleşen yazıdan ilk %1$d tanesi gösteriliyor."
+
+msgid "ID"
+msgstr "Kimlik"
+
+msgid "Image"
+msgstr "Görsel"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Action"
+msgstr "İşlem"
+
+msgid "Select the new featured image"
+msgstr "Yeni öne çıkarılan görseli seçin"
+
+msgid "Use this image"
+msgstr "Bu görseli kullan"
+
+msgid "Loading preview…"
+msgstr "Önizleme yükleniyor…"
+
+msgid "Could not load the preview."
+msgstr "Önizleme yüklenemedi."
+
+msgid "Preparing…"
+msgstr "Hazırlanıyor…"
+
+msgid "Processing…"
+msgstr "İşleniyor…"
+
+msgid "Nothing to process."
+msgstr "İşlenecek bir şey yok."
+
+msgid "Something went wrong. Please try again."
+msgstr "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+
+msgid "Run the TEST replacement on the first few matching posts?"
+msgstr "Eşleşen ilk birkaç yazıda TEST değiştirmesini çalıştırmak istiyor musunuz?"
+
+msgid "Run the LIVE bulk featured-image replacement on ALL matching posts?"
+msgstr "Eşleşen TÜM yazılarda GERÇEK toplu öne çıkarılan görsel değiştirmesini çalıştırmak istiyor musunuz?"
+
+msgid "Restore the original featured image of every affected post?"
+msgstr "Etkilenen her yazının orijinal öne çıkarılan görselini geri yüklemek istiyor musunuz?"
+
+msgid "Pro features"
+msgstr "Pro özellikleri"
+
+msgid "Background processing & scheduling"
+msgstr "Arka planda işleme ve zamanlama"
+
+msgid "Offload large runs to a server-friendly background queue with adaptive batch size, throttling and an off-peak window — or schedule a run for later. No need to keep the browser open."
+msgstr "Büyük çalıştırmaları, uyarlanabilir grup boyutu, hız sınırlama ve yoğun olmayan saat aralığı ile sunucu dostu bir arka plan kuyruğuna devredin — veya daha sonrası için zamanlayın. Tarayıcıyı açık tutmanıza gerek yok."
+
+msgid "Run history & per-run restore"
+msgstr "Çalıştırma geçmişi ve çalıştırma başına geri yükleme"
+
+msgid "Keep a history of every run and roll back any single run independently, plus an email report when a background job finishes."
+msgstr "Her çalıştırmanın geçmişini tutar ve herhangi bir çalıştırmayı bağımsız olarak geri alabilirsiniz; ayrıca bir arka plan görevi tamamlandığında e-posta raporu gönderir."
+
+msgid "Unlock in Pro →"
+msgstr "Pro'da kilidi aç →"
+
+msgid "Qaiyo Featured Image Bulk Replacer Pro"
+msgstr "Qaiyo Featured Image Bulk Replacer Pro"
+
+msgid "Get Pro"
+msgstr "Pro'yu edinin"
+
+msgid "Select the images to assign at random"
+msgstr "Rastgele atanacak görselleri seçin"
+
+msgid "Use these images"
+msgstr "Bu görselleri kullan"
+
+msgid "Choose images"
+msgstr "Görselleri seç"
+
+msgid "Images selected: %d"
+msgstr "Seçilen görseller: %d"
+
+msgid "Remove this image from the selection"
+msgstr "Bu görseli seçimden çıkar"
+
+msgid "Preview loaded."
+msgstr "Önizleme yüklendi."
+
+msgid "Choose an image from the Media Library or paste an image URL."
+msgstr "Ortam kütüphanesinden bir görsel seçin veya bir görsel URL’si yapıştırın."
+
+msgid "Choose at least two images for random assignment."
+msgstr "Rastgele atama için en az iki görsel seçin."
+
+msgid "Enter the “before” date."
+msgstr "“Öncesi” tarihini girin."
+
+msgid "Finished: %1$d processed, %2$d skipped, %3$d errors."
+msgstr "Bitti: %1$d işlendi, %2$d atlandı, %3$d hata."
+
+msgid "Scanning…"
+msgstr "Taranıyor…"
+
+msgid "Remove the broken featured image references? You can undo it with “Restore originals”."
+msgstr "Bozuk öne çıkan görsel bağlantıları kaldırılsın mı? “Orijinalleri geri yükle” ile geri alabilirsiniz."
+
+msgid "Broken image cleanup on %1$s — cleaned: %2$d, skipped: %3$d, errors: %4$d."
+msgstr "%1$s tarihli bozuk görsel temizliği — temizlenen: %2$d, atlanan: %3$d, hata: %4$d."
+
+msgid "A category, tag or taxonomy filter is set that does not apply to the chosen post type. Clear it or pick another post type — otherwise the run would affect more posts than intended."
+msgstr "Seçilen içerik türüne uygulanmayan bir kategori, etiket veya sınıflandırma filtresi ayarlı. Kaldırın veya başka bir tür seçin — aksi halde işlem amaçlanandan fazla yazıyı etkiler."
+
+msgid "Featured image"
+msgstr "Öne çıkan görsel"
+
+msgid "Has a featured image."
+msgstr "Öne çıkan görseli var."
+
+msgid "No featured image."
+msgstr "Öne çıkan görsel yok."
+
+msgid "Choose featured image for “%s”"
+msgstr "“%s” için öne çıkan görsel seç"
+
+msgid "Remove featured image from “%s”"
+msgstr "“%s” öğesinin öne çıkan görselini kaldır"
+
+msgid "Choose featured image"
+msgstr "Öne çıkan görsel seç"
+
+msgid "Featured image changed."
+msgstr "Öne çıkan görsel değiştirildi."
+
+msgid "Featured image removed."
+msgstr "Öne çıkan görsel kaldırıldı."
+
+msgid "Remove the featured image from this post? You can undo it with “Restore originals”."
+msgstr "Bu yazının öne çıkan görseli kaldırılsın mı? “Orijinalleri geri yükle” ile geri alabilirsiniz."
+
+msgid "More plugins from Qaiyo"
+msgstr "Qaiyo’dan diğer eklentiler"
+
+msgid "Discover Qaiyo"
+msgstr "Qaiyo’yu keşfet"
+
+msgid "TikTok channel feeds and scheduled background refresh of your channel galleries."
+msgstr "TikTok kanal akışları ve kanal galerilerinizin zamanlanmış arka plan yenilemesi."
+
+msgid "Extra layouts, star ratings, a front-end submission form and video testimonials."
+msgstr "Ek düzenler, yıldız puanları, ön yüz gönderim formu ve video referansları."
+
+msgid "Per-term taxonomy access, advanced per-user rules and finer-grained access control."
+msgstr "Terim bazında sınıflandırma erişimi, kullanıcı bazında gelişmiş kurallar ve daha ayrıntılı erişim denetimi."
+
+msgid "Background processing, scheduling, automatic image sourcing and full change history."
+msgstr "Arka plan işleme, zamanlama, otomatik görsel bulma ve tam değişiklik geçmişi."
+
+msgid "Unlimited services and staff, extra booking layouts and advanced scheduling rules."
+msgstr "Sınırsız hizmet ve personel, ek rezervasyon düzenleri ve gelişmiş zamanlama kuralları."
+
+msgid "Advanced wp-admin tools and workflow enhancements that build on the free modules."
+msgstr "Ücretsiz modüller üzerine kurulu gelişmiş wp-admin araçları ve iş akışı iyileştirmeleri."
+
+msgid "Deeper performance diagnostics, more optimisation rules and one-click fixes."
+msgstr "Daha derin performans tanılaması, daha fazla optimizasyon kuralı ve tek tıkla düzeltmeler."
+
+msgid "Random assignment from %1$d images. Matched posts: %2$d."
+msgstr "%1$d görselden rastgele atama. Eşleşen yazılar: %2$d."
+
+msgid "Posts affected by this run"
+msgstr "Bu çalıştırmanın etkilediği yazılar"
+
+msgid "replace (random image)"
+msgstr "değiştirme (rastgele görsel)"
+
+msgid "No featured image"
+msgstr "Öne çıkan görsel yok"
+
+msgid "Rule-based automatic featured images"
+msgstr "Kural tabanlı otomatik öne çıkan görseller"
+
+msgid "Set images automatically on publish by post type, category, tag, author or a word in the title — from a fixed image, a random set, the first image of the content, a gallery or an embedded video. Apply the rules to existing posts too."
+msgstr "Yayınlarken içerik türü, kategori, etiket, yazar veya başlıktaki bir kelimeye göre görseli otomatik ayarlar — sabit görselden, rastgele bir setten, içeriğin ilk görselinden, galeriden veya gömülü videodan. Kuralları mevcut yazılara da uygulayın."
+
+msgid "Title images"
+msgstr "Başlık görselleri"
+
+msgid "Generate a branded featured image from the post title, with your colours, font size and layout, previewed live."
+msgstr "Yazı başlığından renkleriniz, yazı boyutunuz ve düzeninizle markalı bir öne çıkan görsel oluşturun; canlı önizlemeli."
+
+msgid "Stock photo search"
+msgstr "Stok fotoğraf arama"
+
+msgid "Search Unsplash and Pixabay from the dashboard and import a photo into the Media Library with its attribution."
+msgstr "Panodan Unsplash ve Pixabay’de arayın ve bir fotoğrafı atfıyla birlikte ortam kütüphanesine aktarın."
+
+msgid "Presets, WooCommerce & WP-CLI"
+msgstr "Hazır ayarlar, WooCommerce ve WP-CLI"
+
+msgid "Save and share run settings, filter products by stock status and type, and run everything from the command line."
+msgstr "Çalıştırma ayarlarını kaydedip paylaşın, ürünleri stok durumu ve türe göre filtreleyin ve her şeyi komut satırından çalıştırın."
+
+msgid "Not used as a featured image"
+msgstr "Öne çıkan görsel olarak kullanılmıyor"
+
+msgid "and %d more"
+msgstr "ve %d tane daha"
+
+msgid "Featured image of"
+msgstr "Öne çıkan görseli olduğu yer"
+
+msgid "No broken featured images found."
+msgstr "Bozuk öne çıkan görsel bulunamadı."
+
+msgid "Posts with a broken featured image: %d."
+msgstr "Bozuk öne çıkan görseli olan yazılar: %d."
+
+msgid "Replace the featured image of published posts with an image that already exists in your Media Library. Filter by date, scope, category, tag, author or taxonomy, preview the result, then run it in safe batches — and restore the originals at any time."
+msgstr "Yayınlanmış yazıların öne çıkan görselini ortam kütüphanenizde zaten bulunan bir görselle değiştirin. Tarih, kapsam, kategori, etiket, yazar veya sınıflandırmaya göre filtreleyin, önizleyin ve güvenli gruplar halinde çalıştırın — orijinalleri her zaman geri yükleyebilirsiniz."
+
+msgid "How images are assigned"
+msgstr "Görsellerin atanma şekli"
+
+msgid "The same image for every post"
+msgstr "Her yazı için aynı görsel"
+
+msgid "A random image from a selection"
+msgstr "Bir seçimden rastgele görsel"
+
+msgid "Pick at least two images. Each post gets one of them; a retried batch gives a post the same image again."
+msgstr "En az iki görsel seçin. Her yazı bunlardan birini alır; yeniden denenen bir grup aynı görseli tekrar verir."
+
+msgid "Selected images"
+msgstr "Seçilen görseller"
+
+msgid "Or paste the URL of an uploaded image"
+msgstr "Veya yüklenmiş bir görselin URL’sini yapıştırın"
+
+msgid "Tag"
+msgstr "Etiket"
+
+msgid "All tags"
+msgstr "Tüm etiketler"
+
+msgid "Other taxonomy"
+msgstr "Diğer sınıflandırma"
+
+msgid "No filter"
+msgstr "Filtre yok"
+
+msgid "Author"
+msgstr "Yazar"
+
+msgid "All authors"
+msgstr "Tüm yazarlar"
+
+msgid "Category, tag and taxonomy filters must apply to the chosen post type, otherwise the run is refused rather than widened."
+msgstr "Kategori, etiket ve sınıflandırma filtreleri seçilen içerik türüne uygulanmalıdır; aksi halde işlem genişletilmez, reddedilir."
+
+msgid "(required)"
+msgstr "(zorunlu)"
+
+msgid "Restores the original featured image of every post the plugin previously changed — bulk runs, list-column changes and broken-image cleanups alike."
+msgstr "Eklentinin daha önce değiştirdiği her yazının orijinal öne çıkan görselini geri yükler — toplu çalıştırmalar, liste sütunu değişiklikleri ve bozuk görsel temizlikleri dahil."
+
+msgid "Broken featured images"
+msgstr "Bozuk öne çıkan görseller"
+
+msgid "Finds posts whose featured image points at an attachment that no longer exists, and removes that dangling reference. Images whose file is stored elsewhere (offloaded media) are never touched."
+msgstr "Öne çıkan görseli artık var olmayan bir eke işaret eden yazıları bulur ve bu sahipsiz bağlantıyı kaldırır. Dosyası başka yerde saklanan görsellere (harici ortam) asla dokunulmaz."
+
+msgid "Scan for broken featured images"
+msgstr "Bozuk öne çıkan görselleri tara"
+
+msgid "Remove broken references"
+msgstr "Bozuk bağlantıları kaldır"
+
+msgid "(opens in a new tab)"
+msgstr "(yeni sekmede açılır)"

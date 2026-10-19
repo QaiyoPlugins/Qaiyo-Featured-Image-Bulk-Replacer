@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qaiyo-featured-image-bulk-replacer 1.3.0\n"
+"Report-Msgid-Bugs-To: https://qaiyo-plugins.com\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Qaiyo build-mo.py\n"
+
+msgid "Qaiyo Plugins"
+msgstr "Qaiyo pluginok"
+
+msgid "Hi, %s!"
+msgstr "Szia, %s!"
+
+msgid "Featured Image Bulk Replacer"
+msgstr "Kiemelt kép tömeges csere"
+
+msgid "Featured Images"
+msgstr "Kiemelt képek"
+
+msgid "You do not have permission to access this page."
+msgstr "Nincs jogosultságod az oldal megnyitásához."
+
+msgid "Replacement settings"
+msgstr "Csere beállításai"
+
+msgid "New featured image"
+msgstr "Új kiemelt kép"
+
+msgid "Choose from Media Library"
+msgstr "Választás a Médiatárból"
+
+msgid "Pick an image from the Media Library, or paste the URL of an image that is already uploaded. Nothing is downloaded."
+msgstr "Válassz egy képet a Médiatárból, vagy illeszd be egy már feltöltött kép URL-jét. A plugin semmit nem tölt le."
+
+msgid "Target scope"
+msgstr "Hatókör"
+
+msgid "All matching posts"
+msgstr "Minden érintett bejegyzés"
+
+msgid "Only posts without a featured image"
+msgstr "Csak a kiemelt kép nélküli bejegyzések"
+
+msgid "Post type"
+msgstr "Bejegyzéstípus"
+
+msgid "Category"
+msgstr "Kategória"
+
+msgid "All categories"
+msgstr "Összes kategória"
+
+msgid "After date (optional)"
+msgstr "Ettől a dátumtól (opcionális)"
+
+msgid "Only posts published on or after this date are affected. Leave empty for no lower bound."
+msgstr "Csak az e dátumon vagy utána közzétett bejegyzések érintettek. Hagyd üresen, ha nincs alsó határ."
+
+msgid "Before date"
+msgstr "Eddig a dátumig"
+
+msgid "Only posts published strictly before this date are affected (the date itself is excluded)."
+msgstr "Csak az e dátumnál szigorúan korábban közzétett bejegyzések érintettek (maga a nap nem tartozik bele)."
+
+msgid "Alt / title text (optional)"
+msgstr "Alt / title szöveg (opcionális)"
+
+msgid "If filled, the alt and title of the chosen Media Library image are set to this text once. Leave empty to keep them unchanged."
+msgstr "Ha kitöltöd, a kiválasztott médiatári kép alt és title attribútuma egyszer erre a szövegre lesz állítva. Hagyd üresen, ha nem akarod megváltoztatni."
+
+msgid "Preview"
+msgstr "Előnézet"
+
+msgid "Test run (max %d posts)"
+msgstr "Teszt futtatás (max %d bejegyzés)"
+
+msgid "Live run (all matching posts)"
+msgstr "Éles futtatás (összes érintett bejegyzés)"
+
+msgid "Tip: back up your database before a live run. Posts are processed in small batches so large sites do not time out. The original featured image of every changed post is stored so you can restore it below."
+msgstr "Tipp: éles futtatás előtt készíts adatbázis-mentést. A bejegyzések kis kötegekben dolgozódnak fel, így a nagy oldalak sem futnak timeoutba. Minden módosított bejegyzés eredeti kiemelt képe eltárolódik, így lent visszaállítható."
+
+msgid "Restore originals"
+msgstr "Eredetiek visszaállítása"
+
+msgid "Restorable posts:"
+msgstr "Visszaállítható bejegyzések:"
+
+msgid "Restore original featured images"
+msgstr "Eredeti kiemelt képek visszaállítása"
+
+msgid "Nothing to restore right now."
+msgstr "Jelenleg nincs mit visszaállítani."
+
+msgid "Last run"
+msgstr "Utolsó futtatás"
+
+msgid "No runs yet."
+msgstr "Még nem volt futtatás."
+
+msgid "Restore on %1$s — restored: %2$d, skipped: %3$d, errors: %4$d."
+msgstr "Visszaállítás (%1$s) — visszaállítva: %2$d, kihagyva: %3$d, hiba: %4$d."
+
+msgid "test"
+msgstr "teszt"
+
+msgid "live"
+msgstr "éles"
+
+msgid "Replacement (%1$s) on %2$s — matched: %3$d, replaced: %4$d, skipped: %5$d, errors: %6$d."
+msgstr "Csere (%1$s) — %2$s — találat: %3$d, lecserélve: %4$d, kihagyva: %5$d, hiba: %6$d."
+
+msgid "Qaiyo Featured Image Bulk Replacer v%s — by"
+msgstr "Qaiyo Featured Image Bulk Replacer v%s — készítette:"
+
+msgid "You do not have permission to perform this action."
+msgstr "Nincs jogosultságod a művelet végrehajtásához."
+
+msgid "Please enter a valid “before” date."
+msgstr "Adj meg egy érvényes „eddig” dátumot."
+
+msgid "Please choose an image from the Media Library or paste an image URL."
+msgstr "Válassz egy képet a Médiatárból, vagy illessz be egy kép URL-t."
+
+msgid "No Media Library image was found for that URL. Make sure the image is already uploaded."
+msgstr "Nem található médiatári kép ehhez az URL-hez. Győződj meg róla, hogy a kép már fel van töltve."
+
+msgid "The job expired. Please start again."
+msgstr "A feladat lejárt. Kezdd elölről."
+
+msgid "skip (already correct)"
+msgstr "kihagyva (már megfelelő)"
+
+msgid "replace"
+msgstr "csere"
+
+msgid "Media Library attachment ID: %1$d. Matched posts: %2$d — to replace: %3$d, to skip: %4$d."
+msgstr "Médiatári csatolmány ID: %1$d. Találat: %2$d bejegyzés — cserélendő: %3$d, kihagyandó: %4$d."
+
+msgid "No posts match these criteria."
+msgstr "Nincs a feltételeknek megfelelő bejegyzés."
+
+msgid "Showing the first %1$d of %2$d matching posts."
+msgstr "A %2$d találatból az első %1$d látható."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "Kép"
+
+msgid "Title"
+msgstr "Cím"
+
+msgid "Date"
+msgstr "Dátum"
+
+msgid "Action"
+msgstr "Művelet"
+
+msgid "Select the new featured image"
+msgstr "Válaszd ki az új kiemelt képet"
+
+msgid "Use this image"
+msgstr "Ezt a képet használom"
+
+msgid "Loading preview…"
+msgstr "Előnézet betöltése…"
+
+msgid "Could not load the preview."
+msgstr "Az előnézet betöltése nem sikerült."
+
+msgid "Preparing…"
+msgstr "Előkészítés…"
+
+msgid "Processing…"
+msgstr "Feldolgozás…"
+
+msgid "Nothing to process."
+msgstr "Nincs mit feldolgozni."
+
+msgid "Something went wrong. Please try again."
+msgstr "Valami hiba történt. Próbáld újra."
+
+msgid "Run the TEST replacement on the first few matching posts?"
+msgstr "Lefuttatod a TESZT cserét az első néhány érintett bejegyzésen?"
+
+msgid "Run the LIVE bulk featured-image replacement on ALL matching posts?"
+msgstr "Lefuttatod az ÉLES tömeges kiemelt kép cserét AZ ÖSSZES érintett bejegyzésen?"
+
+msgid "Restore the original featured image of every affected post?"
+msgstr "Visszaállítod minden érintett bejegyzés eredeti kiemelt képét?"
+
+msgid "Pro features"
+msgstr "Pro funkciók"
+
+msgid "Background processing & scheduling"
+msgstr "Háttér-feldolgozás és ütemezés"
+
+msgid "Offload large runs to a server-friendly background queue with adaptive batch size, throttling and an off-peak window — or schedule a run for later. No need to keep the browser open."
+msgstr "Nagy futtatások átadása egy szerverkímélő háttér-sornak adaptív kötegmérettel, lassítással és csúcsidőn kívüli ablakkal — vagy ütemezés későbbre. Nem kell nyitva tartani a böngészőt."
+
+msgid "Run history & per-run restore"
+msgstr "Futtatás-előzmény és futtatásonkénti visszaállítás"
+
+msgid "Keep a history of every run and roll back any single run independently, plus an email report when a background job finishes."
+msgstr "Megőrzi minden futtatás előzményét, és bármelyik futtatás külön visszavonható, plusz e-mail riport, amikor egy háttérfeladat befejeződik."
+
+msgid "Unlock in Pro →"
+msgstr "Feloldás a Pro-ban →"
+
+msgid "Qaiyo Featured Image Bulk Replacer Pro"
+msgstr "Qaiyo Featured Image Bulk Replacer Pro"
+
+msgid "Get Pro"
+msgstr "Pro beszerzése"
+
+msgid "Select the images to assign at random"
+msgstr "Válaszd ki a véletlenszerűen kiosztandó képeket"
+
+msgid "Use these images"
+msgstr "Ezeket a képeket használom"
+
+msgid "Choose images"
+msgstr "Képek kiválasztása"
+
+msgid "Images selected: %d"
+msgstr "Kiválasztott képek: %d"
+
+msgid "Remove this image from the selection"
+msgstr "Kép eltávolítása a kijelölésből"
+
+msgid "Preview loaded."
+msgstr "Előnézet betöltve."
+
+msgid "Choose an image from the Media Library or paste an image URL."
+msgstr "Válassz képet a Médiatárból, vagy illeszd be egy kép URL-jét."
+
+msgid "Choose at least two images for random assignment."
+msgstr "A véletlenszerű kiosztáshoz legalább két képet válassz."
+
+msgid "Enter the “before” date."
+msgstr "Add meg az „előtte” dátumot."
+
+msgid "Finished: %1$d processed, %2$d skipped, %3$d errors."
+msgstr "Kész: %1$d feldolgozva, %2$d kihagyva, %3$d hiba."
+
+msgid "Scanning…"
+msgstr "Keresés…"
+
+msgid "Remove the broken featured image references? You can undo it with “Restore originals”."
+msgstr "Eltávolítod a hibás kiemeltkép-hivatkozásokat? Az „Eredetiek visszaállítása” gombbal visszavonható."
+
+msgid "Broken image cleanup on %1$s — cleaned: %2$d, skipped: %3$d, errors: %4$d."
+msgstr "Hibás képek takarítása (%1$s) — rendbe téve: %2$d, kihagyva: %3$d, hiba: %4$d."
+
+msgid "A category, tag or taxonomy filter is set that does not apply to the chosen post type. Clear it or pick another post type — otherwise the run would affect more posts than intended."
+msgstr "Olyan kategória-, címke- vagy taxonómiaszűrő van beállítva, amely nem vonatkozik a választott bejegyzéstípusra. Töröld, vagy válassz másik típust — különben a futás több bejegyzést érintene a szándékoltnál."
+
+msgid "Featured image"
+msgstr "Kiemelt kép"
+
+msgid "Has a featured image."
+msgstr "Van kiemelt képe."
+
+msgid "No featured image."
+msgstr "Nincs kiemelt képe."
+
+msgid "Choose featured image for “%s”"
+msgstr "Kiemelt kép kiválasztása: „%s”"
+
+msgid "Remove featured image from “%s”"
+msgstr "Kiemelt kép eltávolítása: „%s”"
+
+msgid "Choose featured image"
+msgstr "Kiemelt kép kiválasztása"
+
+msgid "Featured image changed."
+msgstr "Kiemelt kép módosítva."
+
+msgid "Featured image removed."
+msgstr "Kiemelt kép eltávolítva."
+
+msgid "Remove the featured image from this post? You can undo it with “Restore originals”."
+msgstr "Eltávolítod a bejegyzés kiemelt képét? Az „Eredetiek visszaállítása” gombbal visszavonható."
+
+msgid "More plugins from Qaiyo"
+msgstr "További Qaiyo bővítmények"
+
+msgid "Discover Qaiyo"
+msgstr "Fedezd fel a Qaiyót"
+
+msgid "TikTok channel feeds and scheduled background refresh of your channel galleries."
+msgstr "TikTok-csatornafolyamok és a csatornagalériák ütemezett háttérfrissítése."
+
+msgid "Extra layouts, star ratings, a front-end submission form and video testimonials."
+msgstr "Extra elrendezések, csillagos értékelés, frontendes beküldő űrlap és videós vélemények."
+
+msgid "Per-term taxonomy access, advanced per-user rules and finer-grained access control."
+msgstr "Kifejezésenkénti taxonómia-hozzáférés, haladó felhasználónkénti szabályok és finomabb hozzáférés-vezérlés."
+
+msgid "Background processing, scheduling, automatic image sourcing and full change history."
+msgstr "Háttérfeldolgozás, ütemezés, automatikus képbeszerzés és teljes változásnapló."
+
+msgid "Unlimited services and staff, extra booking layouts and advanced scheduling rules."
+msgstr "Korlátlan szolgáltatás és munkatárs, extra foglalási elrendezések és haladó ütemezési szabályok."
+
+msgid "Advanced wp-admin tools and workflow enhancements that build on the free modules."
+msgstr "Haladó wp-admin eszközök és munkafolyamat-fejlesztések az ingyenes modulokra építve."
+
+msgid "Deeper performance diagnostics, more optimisation rules and one-click fixes."
+msgstr "Mélyebb teljesítménydiagnosztika, több optimalizálási szabály és egykattintásos javítások."
+
+msgid "Random assignment from %1$d images. Matched posts: %2$d."
+msgstr "Véletlenszerű kiosztás %1$d képből. Érintett bejegyzések: %2$d."
+
+msgid "Posts affected by this run"
+msgstr "A futás által érintett bejegyzések"
+
+msgid "replace (random image)"
+msgstr "csere (véletlen kép)"
+
+msgid "No featured image"
+msgstr "Nincs kiemelt kép"
+
+msgid "Rule-based automatic featured images"
+msgstr "Szabályalapú automatikus kiemelt képek"
+
+msgid "Set images automatically on publish by post type, category, tag, author or a word in the title — from a fixed image, a random set, the first image of the content, a gallery or an embedded video. Apply the rules to existing posts too."
+msgstr "Közzétételkor automatikusan állít be képet bejegyzéstípus, kategória, címke, szerző vagy a címben szereplő szó alapján — fix képből, véletlen készletből, a tartalom első képéből, galériából vagy beágyazott videóból. A szabályok meglévő bejegyzésekre is alkalmazhatók."
+
+msgid "Title images"
+msgstr "Címképek"
+
+msgid "Generate a branded featured image from the post title, with your colours, font size and layout, previewed live."
+msgstr "Arculatos kiemelt kép generálása a bejegyzés címéből, saját színekkel, betűmérettel és elrendezéssel, élő előnézettel."
+
+msgid "Stock photo search"
+msgstr "Stockfotó-keresés"
+
+msgid "Search Unsplash and Pixabay from the dashboard and import a photo into the Media Library with its attribution."
+msgstr "Keress az Unsplashen és a Pixabayen a vezérlőpultból, és importálj fotót a Médiatárba a forrásmegjelöléssel együtt."
+
+msgid "Presets, WooCommerce & WP-CLI"
+msgstr "Sablonok, WooCommerce és WP-CLI"
+
+msgid "Save and share run settings, filter products by stock status and type, and run everything from the command line."
+msgstr "Mentsd és oszd meg a futtatási beállításokat, szűrj termékeket készletállapot és típus szerint, és futtass mindent parancssorból."
+
+msgid "Not used as a featured image"
+msgstr "Nincs kiemelt képként használva"
+
+msgid "and %d more"
+msgstr "és még %d"
+
+msgid "Featured image of"
+msgstr "Kiemelt képe ezeknek:"
+
+msgid "No broken featured images found."
+msgstr "Nem található hibás kiemelt kép."
+
+msgid "Posts with a broken featured image: %d."
+msgstr "Hibás kiemelt képű bejegyzések: %d."
+
+msgid "Replace the featured image of published posts with an image that already exists in your Media Library. Filter by date, scope, category, tag, author or taxonomy, preview the result, then run it in safe batches — and restore the originals at any time."
+msgstr "Cseréld le közzétett bejegyzések kiemelt képét egy a Médiatárban már meglévő képre. Szűrj dátumra, hatókörre, kategóriára, címkére, szerzőre vagy taxonómiára, nézd meg az előnézetet, majd futtasd biztonságos kötegekben — és bármikor visszaállíthatod az eredetit."
+
+msgid "How images are assigned"
+msgstr "A képek kiosztása"
+
+msgid "The same image for every post"
+msgstr "Ugyanaz a kép minden bejegyzéshez"
+
+msgid "A random image from a selection"
+msgstr "Véletlen kép egy készletből"
+
+msgid "Pick at least two images. Each post gets one of them; a retried batch gives a post the same image again."
+msgstr "Válassz legalább két képet. Minden bejegyzés kap egyet közülük; egy újrapróbált köteg ugyanazt a képet adja újra."
+
+msgid "Selected images"
+msgstr "Kiválasztott képek"
+
+msgid "Or paste the URL of an uploaded image"
+msgstr "Vagy illeszd be egy feltöltött kép URL-jét"
+
+msgid "Tag"
+msgstr "Címke"
+
+msgid "All tags"
+msgstr "Minden címke"
+
+msgid "Other taxonomy"
+msgstr "Egyéb taxonómia"
+
+msgid "No filter"
+msgstr "Nincs szűrő"
+
+msgid "Author"
+msgstr "Szerző"
+
+msgid "All authors"
+msgstr "Minden szerző"
+
+msgid "Category, tag and taxonomy filters must apply to the chosen post type, otherwise the run is refused rather than widened."
+msgstr "A kategória-, címke- és taxonómiaszűrőnek a választott bejegyzéstípusra kell vonatkoznia, különben a futás elutasításra kerül, nem pedig kibővül."
+
+msgid "(required)"
+msgstr "(kötelező)"
+
+msgid "Restores the original featured image of every post the plugin previously changed — bulk runs, list-column changes and broken-image cleanups alike."
+msgstr "Visszaállítja minden olyan bejegyzés eredeti kiemelt képét, amelyet a bővítmény korábban módosított — tömeges futások, listaoszlopos módosítások és hibáskép-takarítások egyaránt."
+
+msgid "Broken featured images"
+msgstr "Hibás kiemelt képek"
+
+msgid "Finds posts whose featured image points at an attachment that no longer exists, and removes that dangling reference. Images whose file is stored elsewhere (offloaded media) are never touched."
+msgstr "Megkeresi azokat a bejegyzéseket, amelyek kiemelt képe már nem létező mellékletre mutat, és eltávolítja ezt a lógó hivatkozást. A máshol tárolt fájlú képekhez (offloadolt média) sosem nyúl."
+
+msgid "Scan for broken featured images"
+msgstr "Hibás kiemelt képek keresése"
+
+msgid "Remove broken references"
+msgstr "Hibás hivatkozások eltávolítása"
+
+msgid "(opens in a new tab)"
+msgstr "(új lapon nyílik meg)"

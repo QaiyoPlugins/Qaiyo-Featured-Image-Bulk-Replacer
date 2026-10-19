@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qaiyo-featured-image-bulk-replacer 1.3.0\n"
+"Report-Msgid-Bugs-To: https://qaiyo-plugins.com\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Qaiyo build-mo.py\n"
+
+msgid "Qaiyo Plugins"
+msgstr "Плагины Qaiyo"
+
+msgid "Hi, %s!"
+msgstr "Привет, %s!"
+
+msgid "Featured Image Bulk Replacer"
+msgstr "Массовая замена изображений записи"
+
+msgid "Featured Images"
+msgstr "Изображения записи"
+
+msgid "You do not have permission to access this page."
+msgstr "У вас нет прав для доступа к этой странице."
+
+msgid "Replacement settings"
+msgstr "Настройки замены"
+
+msgid "New featured image"
+msgstr "Новое изображение записи"
+
+msgid "Choose from Media Library"
+msgstr "Выбрать из Медиабиблиотеки"
+
+msgid "Pick an image from the Media Library, or paste the URL of an image that is already uploaded. Nothing is downloaded."
+msgstr "Выберите изображение из Медиабиблиотеки или вставьте URL уже загруженного изображения. Ничего не скачивается."
+
+msgid "Target scope"
+msgstr "Охват"
+
+msgid "All matching posts"
+msgstr "Все подходящие записи"
+
+msgid "Only posts without a featured image"
+msgstr "Только записи без изображения записи"
+
+msgid "Post type"
+msgstr "Тип записи"
+
+msgid "Category"
+msgstr "Рубрика"
+
+msgid "All categories"
+msgstr "Все рубрики"
+
+msgid "After date (optional)"
+msgstr "С даты (необязательно)"
+
+msgid "Only posts published on or after this date are affected. Leave empty for no lower bound."
+msgstr "Затрагиваются только записи, опубликованные в эту дату или позже. Оставьте пустым, чтобы не задавать нижнюю границу."
+
+msgid "Before date"
+msgstr "До даты"
+
+msgid "Only posts published strictly before this date are affected (the date itself is excluded)."
+msgstr "Затрагиваются только записи, опубликованные строго до этой даты (сама дата исключается)."
+
+msgid "Alt / title text (optional)"
+msgstr "Текст alt / заголовок (необязательно)"
+
+msgid "If filled, the alt and title of the chosen Media Library image are set to this text once. Leave empty to keep them unchanged."
+msgstr "Если заполнено, alt и заголовок выбранного изображения один раз устанавливаются на этот текст. Оставьте пустым, чтобы не изменять их."
+
+msgid "Preview"
+msgstr "Просмотр"
+
+msgid "Test run (max %d posts)"
+msgstr "Тестовый запуск (макс. %d записей)"
+
+msgid "Live run (all matching posts)"
+msgstr "Реальный запуск (все подходящие записи)"
+
+msgid "Tip: back up your database before a live run. Posts are processed in small batches so large sites do not time out. The original featured image of every changed post is stored so you can restore it below."
+msgstr "Совет: сделайте резервную копию базы данных перед реальным запуском. Записи обрабатываются небольшими партиями, поэтому крупные сайты не превышают лимит времени. Исходное изображение записи каждой изменённой записи сохраняется, чтобы его можно было восстановить ниже."
+
+msgid "Restore originals"
+msgstr "Восстановить оригиналы"
+
+msgid "Restorable posts:"
+msgstr "Записи для восстановления:"
+
+msgid "Restore original featured images"
+msgstr "Восстановить исходные изображения записи"
+
+msgid "Nothing to restore right now."
+msgstr "Сейчас нечего восстанавливать."
+
+msgid "Last run"
+msgstr "Последний запуск"
+
+msgid "No runs yet."
+msgstr "Запусков пока нет."
+
+msgid "Restore on %1$s — restored: %2$d, skipped: %3$d, errors: %4$d."
+msgstr "Восстановление (%1$s) — восстановлено: %2$d, пропущено: %3$d, ошибок: %4$d."
+
+msgid "test"
+msgstr "тест"
+
+msgid "live"
+msgstr "реальный"
+
+msgid "Replacement (%1$s) on %2$s — matched: %3$d, replaced: %4$d, skipped: %5$d, errors: %6$d."
+msgstr "Замена (%1$s) — %2$s — совпадений: %3$d, заменено: %4$d, пропущено: %5$d, ошибок: %6$d."
+
+msgid "Qaiyo Featured Image Bulk Replacer v%s — by"
+msgstr "Qaiyo Featured Image Bulk Replacer v%s — от"
+
+msgid "You do not have permission to perform this action."
+msgstr "У вас нет прав для выполнения этого действия."
+
+msgid "Please enter a valid “before” date."
+msgstr "Введите корректную дату «до»."
+
+msgid "Please choose an image from the Media Library or paste an image URL."
+msgstr "Выберите изображение из Медиабиблиотеки или вставьте URL изображения."
+
+msgid "No Media Library image was found for that URL. Make sure the image is already uploaded."
+msgstr "Для этого URL не найдено изображение в Медиабиблиотеке. Убедитесь, что изображение уже загружено."
+
+msgid "The job expired. Please start again."
+msgstr "Задача истекла. Начните заново."
+
+msgid "skip (already correct)"
+msgstr "пропустить (уже верно)"
+
+msgid "replace"
+msgstr "заменить"
+
+msgid "Media Library attachment ID: %1$d. Matched posts: %2$d — to replace: %3$d, to skip: %4$d."
+msgstr "ID вложения библиотеки: %1$d. Совпадений: %2$d записей — заменить: %3$d, пропустить: %4$d."
+
+msgid "No posts match these criteria."
+msgstr "Нет записей, соответствующих этим условиям."
+
+msgid "Showing the first %1$d of %2$d matching posts."
+msgstr "Показаны первые %1$d из %2$d подходящих записей."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Select the new featured image"
+msgstr "Выберите новое изображение записи"
+
+msgid "Use this image"
+msgstr "Использовать это изображение"
+
+msgid "Loading preview…"
+msgstr "Загрузка просмотра…"
+
+msgid "Could not load the preview."
+msgstr "Не удалось загрузить просмотр."
+
+msgid "Preparing…"
+msgstr "Подготовка…"
+
+msgid "Processing…"
+msgstr "Обработка…"
+
+msgid "Nothing to process."
+msgstr "Нечего обрабатывать."
+
+msgid "Something went wrong. Please try again."
+msgstr "Что-то пошло не так. Попробуйте ещё раз."
+
+msgid "Run the TEST replacement on the first few matching posts?"
+msgstr "Выполнить ТЕСТОВУЮ замену для первых подходящих записей?"
+
+msgid "Run the LIVE bulk featured-image replacement on ALL matching posts?"
+msgstr "Выполнить РЕАЛЬНУЮ массовую замену изображений записи для ВСЕХ подходящих записей?"
+
+msgid "Restore the original featured image of every affected post?"
+msgstr "Восстановить исходное изображение записи каждой затронутой записи?"
+
+msgid "Pro features"
+msgstr "Функции Pro"
+
+msgid "Background processing & scheduling"
+msgstr "Фоновая обработка и планирование"
+
+msgid "Offload large runs to a server-friendly background queue with adaptive batch size, throttling and an off-peak window — or schedule a run for later. No need to keep the browser open."
+msgstr "Передайте крупные запуски в бережную к серверу фоновую очередь с адаптивным размером партии, ограничением скорости и окном непиковых часов — или запланируйте запуск на потом. Браузер можно не держать открытым."
+
+msgid "Run history & per-run restore"
+msgstr "История запусков и восстановление по запуску"
+
+msgid "Keep a history of every run and roll back any single run independently, plus an email report when a background job finishes."
+msgstr "Хранит историю каждого запуска и позволяет независимо откатить любой запуск, плюс отчёт по электронной почте по завершении фоновой задачи."
+
+msgid "Unlock in Pro →"
+msgstr "Разблокировать в Pro →"
+
+msgid "Qaiyo Featured Image Bulk Replacer Pro"
+msgstr "Qaiyo Featured Image Bulk Replacer Pro"
+
+msgid "Get Pro"
+msgstr "Получить Pro"
+
+msgid "Select the images to assign at random"
+msgstr "Выберите изображения для случайного назначения"
+
+msgid "Use these images"
+msgstr "Использовать эти изображения"
+
+msgid "Choose images"
+msgstr "Выбрать изображения"
+
+msgid "Images selected: %d"
+msgstr "Выбрано изображений: %d"
+
+msgid "Remove this image from the selection"
+msgstr "Убрать это изображение из выбора"
+
+msgid "Preview loaded."
+msgstr "Предпросмотр загружен."
+
+msgid "Choose an image from the Media Library or paste an image URL."
+msgstr "Выберите изображение в медиабиблиотеке или вставьте URL изображения."
+
+msgid "Choose at least two images for random assignment."
+msgstr "Для случайного назначения выберите не менее двух изображений."
+
+msgid "Enter the “before” date."
+msgstr "Введите дату «до»."
+
+msgid "Finished: %1$d processed, %2$d skipped, %3$d errors."
+msgstr "Готово: обработано %1$d, пропущено %2$d, ошибок %3$d."
+
+msgid "Scanning…"
+msgstr "Проверка…"
+
+msgid "Remove the broken featured image references? You can undo it with “Restore originals”."
+msgstr "Удалить битые ссылки на миниатюры записей? Это можно отменить кнопкой «Восстановить оригиналы»."
+
+msgid "Broken image cleanup on %1$s — cleaned: %2$d, skipped: %3$d, errors: %4$d."
+msgstr "Очистка битых изображений %1$s — очищено: %2$d, пропущено: %3$d, ошибок: %4$d."
+
+msgid "A category, tag or taxonomy filter is set that does not apply to the chosen post type. Clear it or pick another post type — otherwise the run would affect more posts than intended."
+msgstr "Задан фильтр рубрики, метки или таксономии, который не относится к выбранному типу записей. Снимите его или выберите другой тип — иначе будет затронуто больше записей, чем нужно."
+
+msgid "Featured image"
+msgstr "Миниатюра записи"
+
+msgid "Has a featured image."
+msgstr "Есть миниатюра."
+
+msgid "No featured image."
+msgstr "Нет миниатюры."
+
+msgid "Choose featured image for “%s”"
+msgstr "Выбрать миниатюру для «%s»"
+
+msgid "Remove featured image from “%s”"
+msgstr "Удалить миниатюру у «%s»"
+
+msgid "Choose featured image"
+msgstr "Выбрать миниатюру"
+
+msgid "Featured image changed."
+msgstr "Миниатюра изменена."
+
+msgid "Featured image removed."
+msgstr "Миниатюра удалена."
+
+msgid "Remove the featured image from this post? You can undo it with “Restore originals”."
+msgstr "Удалить миниатюру этой записи? Это можно отменить кнопкой «Восстановить оригиналы»."
+
+msgid "More plugins from Qaiyo"
+msgstr "Другие плагины Qaiyo"
+
+msgid "Discover Qaiyo"
+msgstr "Узнать о Qaiyo"
+
+msgid "TikTok channel feeds and scheduled background refresh of your channel galleries."
+msgstr "Ленты каналов TikTok и плановое фоновое обновление галерей каналов."
+
+msgid "Extra layouts, star ratings, a front-end submission form and video testimonials."
+msgstr "Дополнительные макеты, оценки звёздами, форма отправки на сайте и видеоотзывы."
+
+msgid "Per-term taxonomy access, advanced per-user rules and finer-grained access control."
+msgstr "Доступ по терминам таксономий, расширенные правила для пользователей и более тонкий контроль доступа."
+
+msgid "Background processing, scheduling, automatic image sourcing and full change history."
+msgstr "Фоновая обработка, планирование, автоматический подбор изображений и полная история изменений."
+
+msgid "Unlimited services and staff, extra booking layouts and advanced scheduling rules."
+msgstr "Неограниченное число услуг и сотрудников, дополнительные макеты бронирования и расширенные правила расписания."
+
+msgid "Advanced wp-admin tools and workflow enhancements that build on the free modules."
+msgstr "Расширенные инструменты wp-admin и улучшения рабочего процесса на основе бесплатных модулей."
+
+msgid "Deeper performance diagnostics, more optimisation rules and one-click fixes."
+msgstr "Углублённая диагностика производительности, больше правил оптимизации и исправления в один клик."
+
+msgid "Random assignment from %1$d images. Matched posts: %2$d."
+msgstr "Случайное назначение из %1$d изображений. Подходящих записей: %2$d."
+
+msgid "Posts affected by this run"
+msgstr "Записи, затронутые этим запуском"
+
+msgid "replace (random image)"
+msgstr "замена (случайное изображение)"
+
+msgid "No featured image"
+msgstr "Нет миниатюры"
+
+msgid "Rule-based automatic featured images"
+msgstr "Автоматические миниатюры по правилам"
+
+msgid "Set images automatically on publish by post type, category, tag, author or a word in the title — from a fixed image, a random set, the first image of the content, a gallery or an embedded video. Apply the rules to existing posts too."
+msgstr "Автоматически задаёт изображение при публикации по типу записи, рубрике, метке, автору или слову в заголовке — из фиксированного изображения, случайного набора, первого изображения в тексте, галереи или встроенного видео. Правила можно применить и к существующим записям."
+
+msgid "Title images"
+msgstr "Изображения с заголовком"
+
+msgid "Generate a branded featured image from the post title, with your colours, font size and layout, previewed live."
+msgstr "Создаёт фирменную миниатюру из заголовка записи с вашими цветами, размером шрифта и раскладкой, с живым предпросмотром."
+
+msgid "Stock photo search"
+msgstr "Поиск стоковых фото"
+
+msgid "Search Unsplash and Pixabay from the dashboard and import a photo into the Media Library with its attribution."
+msgstr "Ищите на Unsplash и Pixabay прямо из консоли и импортируйте фото в медиабиблиотеку с указанием автора."
+
+msgid "Presets, WooCommerce & WP-CLI"
+msgstr "Пресеты, WooCommerce и WP-CLI"
+
+msgid "Save and share run settings, filter products by stock status and type, and run everything from the command line."
+msgstr "Сохраняйте и передавайте настройки запуска, фильтруйте товары по наличию и типу и запускайте всё из командной строки."
+
+msgid "Not used as a featured image"
+msgstr "Не используется как миниатюра"
+
+msgid "and %d more"
+msgstr "и ещё %d"
+
+msgid "Featured image of"
+msgstr "Миниатюра для"
+
+msgid "No broken featured images found."
+msgstr "Битых миниатюр не найдено."
+
+msgid "Posts with a broken featured image: %d."
+msgstr "Записей с битой миниатюрой: %d."
+
+msgid "Replace the featured image of published posts with an image that already exists in your Media Library. Filter by date, scope, category, tag, author or taxonomy, preview the result, then run it in safe batches — and restore the originals at any time."
+msgstr "Заменяйте миниатюры опубликованных записей изображением, которое уже есть в медиабиблиотеке. Фильтруйте по дате, охвату, рубрике, метке, автору или таксономии, смотрите предпросмотр и запускайте безопасными пакетами — оригиналы можно восстановить в любой момент."
+
+msgid "How images are assigned"
+msgstr "Как назначаются изображения"
+
+msgid "The same image for every post"
+msgstr "Одно изображение для всех записей"
+
+msgid "A random image from a selection"
+msgstr "Случайное изображение из набора"
+
+msgid "Pick at least two images. Each post gets one of them; a retried batch gives a post the same image again."
+msgstr "Выберите не менее двух изображений. Каждая запись получит одно из них; повторный пакет назначит то же самое."
+
+msgid "Selected images"
+msgstr "Выбранные изображения"
+
+msgid "Or paste the URL of an uploaded image"
+msgstr "Или вставьте URL загруженного изображения"
+
+msgid "Tag"
+msgstr "Метка"
+
+msgid "All tags"
+msgstr "Все метки"
+
+msgid "Other taxonomy"
+msgstr "Другая таксономия"
+
+msgid "No filter"
+msgstr "Без фильтра"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "All authors"
+msgstr "Все авторы"
+
+msgid "Category, tag and taxonomy filters must apply to the chosen post type, otherwise the run is refused rather than widened."
+msgstr "Фильтры рубрик, меток и таксономий должны относиться к выбранному типу записей, иначе запуск будет отклонён, а не расширен."
+
+msgid "(required)"
+msgstr "(обязательно)"
+
+msgid "Restores the original featured image of every post the plugin previously changed — bulk runs, list-column changes and broken-image cleanups alike."
+msgstr "Восстанавливает исходную миниатюру каждой записи, изменённой плагином, — при массовых запусках, правках в колонке списка и очистке битых изображений."
+
+msgid "Broken featured images"
+msgstr "Битые миниатюры"
+
+msgid "Finds posts whose featured image points at an attachment that no longer exists, and removes that dangling reference. Images whose file is stored elsewhere (offloaded media) are never touched."
+msgstr "Находит записи, миниатюра которых ссылается на несуществующее вложение, и удаляет эту висячую ссылку. Изображения, файлы которых хранятся в другом месте (вынесенные медиа), не затрагиваются."
+
+msgid "Scan for broken featured images"
+msgstr "Найти битые миниатюры"
+
+msgid "Remove broken references"
+msgstr "Удалить битые ссылки"
+
+msgid "(opens in a new tab)"
+msgstr "(откроется в новой вкладке)"
